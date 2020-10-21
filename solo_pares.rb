@@ -1,7 +1,6 @@
 numero = ARGV[0].to_i
-
+acum= 0
 numero.times do |i|
-    if i.even?
-        puts i
-    end
+    print acum
+    acum +=2
 end
